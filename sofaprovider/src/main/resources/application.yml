@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: sofaprovider
+  output:
+    ansi:
+      enabled: always
+logging:
+  level: info
+  path: ./logs
+com:
+  alipay:
+    sofa:
+      rpc:
+        registry-address: sofa://10.1.50.135:9604
